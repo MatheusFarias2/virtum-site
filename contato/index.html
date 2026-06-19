@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Contato da Virtum para conversar sobre projetos, testes, feedbacks e sistemas digitais." name="description"/>
+<title>Contato | Virtum</title><link href="../assets/brand/virtum-mark.svg" rel="icon" type="image/svg+xml"/><link href="../assets/brand/favicon.ico" rel="icon" type="image/x-icon"/><link href="../assets/brand/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="../assets/brand/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><link href="../assets/brand/favicon-180x180.png" rel="apple-touch-icon" sizes="180x180" type="image/png"/>
+<link href="../style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header" data-header="refined">
+<nav aria-label="Navegação principal" class="navbar">
+<a aria-label="Virtum início" class="logo logo-image" href="../index.html"><img alt="Virtum Ecossistema" class="brand-wordmark brand-wordmark-header" src="../assets/brand/virtum-logo.svg"/></a>
+<div class="nav-shell" id="navLinks">
+<div class="nav-links">
+<a class="nav-link" data-nav-label="Início" href="../index.html"><span class="nav-icon">⌂</span><span>Início</span></a>
+<a class="nav-link" data-nav-label="Sobre" href="../sobre/index.html"><span class="nav-icon">◌</span><span>Sobre</span></a>
+<a class="nav-link" data-nav-label="Projetos" href="../projetos/index.html"><span class="nav-icon">▦</span><span>Projetos</span></a>
+<a class="nav-link" data-nav-label="Roadmap" href="../roadmap/index.html"><span class="nav-icon">↗</span><span>Roadmap</span></a>
+</div>
+<a class="nav-link nav-cta active" data-nav-label="Contato" href="../contato/index.html"><span class="nav-icon">✦</span><span>Contato</span></a>
+<span aria-label="Versão atual do site" class="nav-version">v0.7.0.4</span>
+</div>
+<button aria-expanded="false" aria-label="Abrir menu" class="menu-button" id="menuButton">
+<span></span><span></span><span></span>
+</button>
+</nav>
+</header>
+<main>
+<section class="page-hero contact-hero-v065">
+<p class="eyebrow">Contato</p>
+<h1>Vamos abrir um canal direto com a Virtum.</h1>
+<p class="page-subtitle">Página de contato refinada para receber dúvidas, ideias, pedidos de teste e conversas sobre os sistemas. Ainda é estática, mas já tem cara de central de atendimento em construção.</p>
+<div class="page-actions contact-hero-actions">
+<a class="button primary" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20projetos%20da%20Virtum." rel="noopener noreferrer" target="_blank">Chamar no WhatsApp</a>
+<a class="button secondary" href="mailto:contato@virtum.tec.br">Enviar e-mail</a>
+</div>
+</section>
+<section class="section contact-section-v065">
+<div class="contact-layout-v065">
+<aside aria-label="Canais de contato da Virtum" class="contact-sidebar-v065 reveal">
+<article class="contact-channel-card whatsapp-channel">
+<div class="contact-channel-icon"><img alt="Logo do WhatsApp" src="../assets/icons/whatsapp.svg"/></div>
+<div>
+<span class="contact-channel-label">Canal principal</span>
+<h3>WhatsApp</h3>
+<p>Para falar rápido sobre projetos, testes, dúvidas ou feedbacks.</p>
+<a class="whatsapp-contact-button compact" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20projetos%20da%20Virtum." rel="noopener noreferrer" target="_blank">
+<img alt="" aria-hidden="true" src="../assets/icons/whatsapp-mark.svg"/>
+                Iniciar conversa
+              </a>
+</div>
+</article>
+<article class="contact-channel-card">
+<div class="contact-channel-icon">✉️</div>
+<div>
+<span class="contact-channel-label">Canal institucional</span>
+<h3>E-mail</h3>
+<p>Ideal para mensagens mais detalhadas, propostas, documentação e registros.</p>
+<a class="contact-link" href="mailto:contato@virtum.tec.br">contato@virtum.tec.br</a>
+</div>
+</article>
+<article class="contact-channel-card muted-channel">
+<div class="contact-channel-icon">🧪</div>
+<div>
+<span class="contact-channel-label">Status</span>
+<h3>Ambiente em desenvolvimento</h3>
+<p>Os botões já estão preparados. Quando formos usar canais reais, basta trocar o número e o e-mail pelos dados definitivos.</p>
+</div>
+</article>
+</aside>
+<div class="form-card contact-form-card-v065 reveal delay-1">
+<div class="form-header-v065">
+<span>Mensagem rápida</span>
+<h2>Conte o que você precisa.</h2>
+<p>O formulário ainda é demonstrativo, mas já organiza a informação do jeito certo para a próxima etapa.</p>
+</div>
+<form class="form-grid contact-form-grid-v065" id="contactForm">
+<label>Nome<input placeholder="Seu nome" required="" type="text"/></label>
+<label>E-mail<input placeholder="voce@email.com" required="" type="email"/></label>
+<label>Interesse
+              <select id="contactInterest" required="">
+<option disabled="" selected="" value="">Selecione uma opção</option>
+<option>Conhecer um projeto</option>
+<option>Testar uma versão</option>
+<option>Enviar feedback</option>
+<option>Conversar sobre uma ideia</option>
+</select>
+</label>
+<label>Projeto
+              <select>
+<option>Virtum Academy</option>
+<option>Virtum Inventory</option>
+<option>Virtum Code</option>
+<option>Virtum Architect</option>
+<option>Virtum AI</option>
+<option>Virtum Finance</option>
+<option>Outro assunto</option>
+</select>
+</label>
+<label class="form-full">Mensagem<textarea id="contactMessage" placeholder="Conte sobre o projeto, dúvida, teste ou melhoria que você quer falar." required=""></textarea></label>
+<button class="button primary form-full" type="submit">Enviar mensagem demonstrativa</button>
+</form>
+</div>
+</div>
+</section>
+<section class="section contact-quick-section-v065">
+<div class="section-heading reveal">
+<p class="eyebrow">Atalhos</p>
+<h2>Escolha o tipo de conversa.</h2>
+<p class="section-subtitle">Três portas rápidas para não deixar o visitante perdido no corredor. Cada card já leva para uma mensagem pronta no WhatsApp.</p>
+</div>
+<div class="contact-quick-grid-v065">
+<article class="contact-quick-card reveal">
+<span>01</span>
+<h3>Quero testar um sistema</h3>
+<p>Para pedir acesso a uma versão de teste, entender requisitos ou receber instruções de uso.</p>
+<a class="mini-button primary" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20testar%20um%20sistema%20da%20Virtum." rel="noopener noreferrer" target="_blank">Pedir teste</a>
+</article>
+<article class="contact-quick-card reveal delay-1">
+<span>02</span>
+<h3>Tenho uma sugestão</h3>
+<p>Para enviar feedback visual, ideia de módulo, correção de texto ou sugestão de melhoria.</p>
+<a class="mini-button" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20uma%20sugest%C3%A3o%20para%20a%20Virtum." rel="noopener noreferrer" target="_blank">Enviar sugestão</a>
+</article>
+<article class="contact-quick-card reveal delay-2">
+<span>03</span>
+<h3>Quero falar sobre projeto</h3>
+<p>Para conversar sobre uma necessidade real, uma possível solução ou um sistema sob medida.</p>
+<a class="mini-button" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20conversar%20sobre%20um%20projeto%20com%20a%20Virtum." rel="noopener noreferrer" target="_blank">Conversar</a>
+</article>
+</div>
+</section>
+<section class="section contact-flow-section-v065">
+<div class="contact-flow-card-v065 reveal">
+<div class="section-heading compact-heading">
+<p class="eyebrow">Fluxo</p>
+<h2>Como o contato deve funcionar.</h2>
+</div>
+<div class="contact-flow-steps-v065">
+<div><span>1</span><strong>Receber</strong><p>O visitante escolhe o canal e envia a mensagem.</p></div>
+<div><span>2</span><strong>Entender</strong><p>A Virtum identifica o projeto, necessidade e prioridade.</p></div>
+<div><span>3</span><strong>Responder</strong><p>O retorno pode virar teste, documentação, ajuste ou nova ideia.</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer aria-label="Rodapé da Virtum" class="footer footer-v068">
+<div aria-hidden="true" class="footer-glow-v068"></div>
+<div class="footer-inner footer-shell-v068">
+<section class="footer-brand-v068">
+<a aria-label="Voltar ao início da Virtum" class="footer-logo-v068" href="../index.html"><img alt="Ícone Virtum" class="footer-logo-mark-image-v068" src="../assets/brand/virtum-mark.svg"/><span class="footer-logo-text-v068"><strong>Virtum</strong><small>Systems Lab</small></span></a>
+<p>Ecossistema de sistemas digitais em construção: produtividade, gestão, automação, desenvolvimento e ferramentas criadas para problemas reais.</p>
+<div aria-label="Informações rápidas do site" class="footer-badges-v068">
+<span>v0.7.0.4</span>
+<span>Microevolução</span>
+<span>Site estático</span>
+</div>
+</section>
+<nav aria-label="Mapa do site" class="footer-column-v068">
+<h3>Mapa</h3>
+<a href="../index.html">Início</a>
+<a href="../sobre/index.html">Sobre</a>
+<a href="../projetos/index.html">Projetos</a>
+<a href="../roadmap/index.html">Roadmap</a>
+<a href="../contato/index.html">Contato</a>
+</nav>
+<nav aria-label="Projetos Virtum" class="footer-column-v068">
+<h3>Projetos</h3>
+<a href="../projetos/academy.html">Virtum Academy</a>
+<a href="../projetos/code.html">Virtum Code</a>
+<a href="../projetos/inventory.html">Virtum Inventory</a>
+<a href="../projetos/architect.html">Virtum Architect</a>
+<a href="../projetos/finance.html">Virtum Finance</a>
+</nav>
+<section aria-label="Canais de contato" class="footer-column-v068 footer-contact-v068">
+<h3>Contato rápido</h3>
+<a class="footer-whatsapp-v068" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20projetos%20da%20Virtum." rel="noopener noreferrer" target="_blank">
+<img alt="" aria-hidden="true" src="../assets/icons/whatsapp-mark.svg"/>
+<span>Chamar no WhatsApp</span>
+</a>
+<a href="mailto:contato@virtum.tec.br">contato@virtum.tec.br</a>
+<p>Os canais seguem em modo demonstrativo. Quando formos ativar oficialmente, basta trocar número e e-mail reais.</p>
+</section>
+</div>
+<div class="footer-bottom-v068">
+<span>© <span id="year"></span> Virtum. Ecossistema de sistemas digitais.</span>
+<span>Desenvolvido em microfases, sem preparação de publicação por enquanto.</span>
+</div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="../script.js"></script>
+<!-- Botão flutuante do WhatsApp: troque 5500000000000 pelo número real no formato 55 + DDD + número. -->
+<a aria-label="Falar com a Virtum pelo WhatsApp" class="whatsapp-float" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20nos%20projetos%20da%20Virtum." rel="noopener noreferrer" target="_blank" title="Falar com a Virtum pelo WhatsApp">
+<img alt="" aria-hidden="true" src="../assets/icons/whatsapp-mark.svg"/>
+<span class="whatsapp-float-text">WhatsApp</span>
+</a>
+</body>
+</html>

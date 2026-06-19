@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ícone Virtum</title>
+  <desc id="desc">Símbolo vetorial em V tecnológico da Virtum.</desc>
+  <defs>
+    <linearGradient id="v-blue" x1="18" y1="32" x2="144" y2="154" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1325"/>
+      <stop offset="0.32" stop-color="#155cff"/>
+      <stop offset="0.58" stop-color="#28d9ff"/>
+      <stop offset="1" stop-color="#091427"/>
+    </linearGradient>
+    <linearGradient id="v-deep" x1="12" y1="42" x2="105" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17243a"/>
+      <stop offset="0.45" stop-color="#0b1427"/>
+      <stop offset="1" stop-color="#020716"/>
+    </linearGradient>
+    <linearGradient id="circuit" x1="94" y1="42" x2="174" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35e8ff"/>
+      <stop offset="0.45" stop-color="#258bff"/>
+      <stop offset="1" stop-color="#57eaff"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.45 0 0 0 0 1 0 0 0 .45 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft-shadow" x="-25%" y="-20%" width="150%" height="145%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#020714" flood-opacity=".55"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M18 31 H54 L94 108 L138 22 H170 L106 148 C100 160 81 160 74 148 Z"
+          fill="url(#v-deep)" opacity=".98"/>
+    <path d="M53 31 H88 L114 84 L146 22 H177 L110 153 C104 164 86 164 80 153 L43 82 H71 L96 128 L131 61 L115 61 L96 97 Z"
+          fill="url(#v-blue)"/>
+    <path d="M69 31 H90 L115 83 L100 112 Z" fill="#1f7cff" opacity=".42"/>
+    <path d="M87 105 L115 83 L108 97 L96 128 Z" fill="#2ee6ff" opacity=".72"/>
+  </g>
+
+  <g fill="none" stroke="url(#circuit)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M110 74 L140 28 H167"/>
+    <path d="M119 94 L147 69 H176"/>
+    <path d="M107 119 L141 113"/>
+  </g>
+
+  <g fill="#081225" stroke="#5ceaff" stroke-width="7" filter="url(#glow)">
+    <circle cx="171" cy="28" r="13"/>
+    <circle cx="190" cy="69" r="13"/>
+    <circle cx="156" cy="113" r="13"/>
+  </g>
+</svg>

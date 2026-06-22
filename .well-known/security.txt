@@ -1,0 +1,4 @@
+Contact: mailto:matheusgfarias18@gmail.com
+Preferred-Languages: pt-BR, pt
+Canonical: https://virtum.tec.br/.well-known/security.txt
+Policy: https://virtum.tec.br/contato/
